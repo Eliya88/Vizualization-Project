@@ -2,7 +2,7 @@
 Israel Public Transportation Dashboard
 An interactive analytics dashboard for exploring public transportation data in Israel across 2023 and 2024. This project visualizes key performance indicators such as route length, passenger volume, operational costs, and trip duration.
 
-Project Structure
+## Project Structure
 main.py: The core application file containing the Dash web interface and visualization logic.
 
 VisualizationProj.ipynb: A Jupyter Notebook used for data cleaning, preprocessing, and exploratory data analysis (including handling missing values with Scikit-Learn).
