@@ -235,6 +235,7 @@ def helper_plot(df_in, size):
 
 # ------------ App and Layouts ------------
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
+server = app.server
 
 app.index_string = f'''
 <!DOCTYPE html>
@@ -808,3 +809,4 @@ def update_correlation_graph(year, quarter, x_axis, y_axis):
 # ------------ Run Server ------------
 if __name__ == "__main__":
     app.run(debug=True, port=8050)
+
